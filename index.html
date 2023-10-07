@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="house-rode">
+        <div class="cloud">
+          <marquee
+            scrollamount="10"
+            onmouseenter="stop()"
+            onmouseleave="start()"
+          >
+            <img class="cloud-img" src="img/m1.png" alt="" />
+            <img
+              class="cloud-img"
+              src="img/m2.png"
+              alt=""
+              style="margin-right: 300px"
+            />
+            <img class="cloud-img" src="img/m3.png" alt="" />
+            <img
+              class="cloud-img"
+              src="img/m2.png"
+              alt=""
+              style="margin-right: 300px"
+            />
+            <img class="cloud-img" src="img/m1.png" alt="" />
+            <img
+              class="cloud-img"
+              src="img/m2.png"
+              alt=""
+              style="margin-right: 300px"
+            />
+            <img class="cloud-img" src="img/m3.png" alt="" />
+            <img class="cloud-img" src="img/m2.png" alt="" />
+          </marquee>
+        </div>
+        <select onchange="Vehicle(this.value)" class="container form-control" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <option selected disabled>Pick a Vehicle</option>
+          <option value="One">Car</option>
+          <option value="two">Bicycle</option>
+          <option value="three">Motorcycle</option>
+          <option value="All">Show All</option>
+        </select>
+        <img class="House" src="img/House.png" alt="House" />
+        <div class="road-car">
+          <img class="Road" src="img/Road.jpg" alt="Road" />
+          <marquee
+            class="bicycle"
+            id=""
+            scrollamount="11"
+            direction="right"
+            style="margin-top: -190px;"
+            ><img src="img/runboy.gif" 
+          /></marquee>
+          <marquee
+            class="bicycle"
+            id=""
+            scrollamount="10"
+            style="margin-top: -220px;"
+            ><img src="img/femalrun.gif" 
+          /></marquee>
+          <marquee
+            class="bicycle"
+            id="bulebicyle"
+            scrollamount="20"
+            direction="right"
+            onmouseenter="stop()"
+            onmouseout="start()"
+            ><img src="img/Bicycle.gif" 
+          /></marquee>
+          <div class="car">
+            <marquee
+              id="redcar"
+              scrollamount="30"
+              onmouseenter="stop()"
+              onmouseout="start()"
+              direction="right"
+              ><img src="img/car.gif"
+            /></marquee>
+            <marquee
+              id="m"
+              class="motorcycle"
+              scrollamount="50"
+              onmouseenter="stop()"
+              onmouseout="start()"
+              direction="right"
+              ><img src="img/Motorcycle.gif"
+            /></marquee>
+          </div>
+        </div>
+        <div class="tree-1">
+          <img src="img/tree.gif" alt="tree1" />
+        </div>
+        <div class="tree-2">
+          <img src="img/tree2.gif" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scirpt.js"></script>
+  </body>
+</html>

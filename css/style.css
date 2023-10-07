@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.house-rode{
+    position: relative;
+}
+.cloud{
+    display: inline;
+}
+.cloud-img{
+    height: 300px;
+}
+.tree-1{
+    position: absolute;
+    top: 420px;
+    left: 291px
+}
+.tree-2{
+    position: absolute;
+    top: 378px;
+    right: 255px;
+}
+.House{
+    width: 100%;
+    height: 540px;;
+}
+.Road{
+    height: 360px;
+    width: 100%;
+}
+.road-car{
+    position: relative;
+}
+.car{
+position: absolute;
+top:0;
+left: 0;
+z-index: 2;
+display: block;
+width: 100%;
+}
+.motorcycle{
+position: absolute;
+top:0;
+left: 0;
+z-index: 2;
+display: block;
+width: 100%;
+}
+.ran{
+position: absolute;
+top:0;
+left: 0;
+
+
+}
+.bicycle{
+position: absolute;
+top:0;
+left: 0;
+z-index: 2;
+display: block;
+width: 100%;
+}
